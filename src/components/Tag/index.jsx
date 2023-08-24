@@ -1,10 +1,8 @@
 import { Container } from './styles';
 
-export function Button({ title }) {
+export function Tag({ title }) {
   return (
-    <Container
-      type='button'
-    >
+    <Container>
       {title}
     </Container>
   )
